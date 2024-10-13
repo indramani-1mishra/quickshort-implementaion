@@ -1,0 +1,8 @@
+Quick Sort Algorithm Steps:
+Choose a Pivot: Select an element from the array to be the "pivot." The choice of pivot can vary (first element, last element, random element, etc.).
+
+Partitioning: Rearrange the array so that elements less than the pivot come before it and elements greater than the pivot come after it. The pivot is then in its correct position.
+
+Recursion: Recursively apply the above steps to the sub-arrays formed by the pivot (elements left of the pivot and elements right of the pivot).
+
+Base Case: The recursion terminates when the sub-array has one or no elements.
